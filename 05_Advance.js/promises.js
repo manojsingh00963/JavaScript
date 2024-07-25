@@ -88,4 +88,4 @@ const promiseFour2 = new Promise((resolve,reject)=>{
 }).catch((error)=>{
 console.log(error);
 // }).finally(()=>console.log("The promise is either resolved or rejected."))
-}).finally(()=>console.log(`" The promise is either resolves or rejectes. "`))
+}).finally(()=>console.log(`" The promise is either resolves or rejectes. "`));
