@@ -1,5 +1,6 @@
 let score = "manish"
 
+
 //console.log(typeof score);
 //console.log(typeof(score));
 
