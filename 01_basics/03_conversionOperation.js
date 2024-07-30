@@ -43,8 +43,12 @@ let negValue = -value
 let str1 = "hello"
 let str2 = " User "
 
-let str3 = str1 + str2
-// console.log(str3);
+let str3 = str1 + str2 ;
+// let str3 = (str1 + str2)
+// let str3 = (str1 , str2)// this not allowed, it will show only one value
+// let str3 = console.log(str1 , str2)
+// let str3 = console.log(str1 + str2)
+console.log(str3);
 
 // console.log("1" + 2);
 // console.log(1 + "2");

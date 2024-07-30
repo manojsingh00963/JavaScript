@@ -1,4 +1,7 @@
+//First code in java script . 
+
 console.log("Hello World")
+
 console.log(" Congratulations you have done successfully!")
 
 let hello = 'Hello world!';
