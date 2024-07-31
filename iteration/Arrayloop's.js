@@ -44,3 +44,27 @@ const mygame = {
 //     console.log(gamer);
 // }
 //not can use for of loop in object.=> newt file object-loop.js
+
+// but by one method can to access that is use [ Object.entries(object_name) ] ,
+
+for (const [key,value] of Object.entries(mygame)) {
+
+    console.log(`The top ${key} is ${value}`)
+    
+}
+
+//more : exmaple:
+
+
+const student = {
+    s1:"Shivam",
+    s2:"Rohit",
+    s2:"Akash",
+    s4:"Raghav",
+
+}
+
+for (const [sroll,sname] of Object.entries(student)) {
+    console.log(`Roll NO ${sroll.toUpperCase()} is ${sname},`)    
+}
+
