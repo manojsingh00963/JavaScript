@@ -1,7 +1,7 @@
 # JavaScript
-code practice and learn at java Script
+code practice and learning java Script
 
-This repository I created for only my javascript practice and also on for  git & github ,
+This repository I created for only my javascript or git & github practice,
 
 and nothing for any other more work . 
 
