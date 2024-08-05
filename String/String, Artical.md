@@ -5,6 +5,24 @@ The String object is used to represent and manipulate a sequence of characters.
 By string literal.
 By string object (using new keyword).
 
+// 1) By string literal
+// The string literal is created using double quotes. The syntax of creating string using string literal 
+
+let Js = "Hello World!";
+console.log(Js)
+// 2) By string object (using new keyword)
+
+//Second method of creat sting . 
+// careate new instance of string .
+
+const playerName = new String(" Cristiano Ronaldo ") 
+
+console.log(playerName)
+
+// -------------------------------------------------------------------- //
+
+// -------------------------------------------------------------------- //
+
 [ Methods	Description ]
 
 charAt()	It provides the char value present at the specified index.
@@ -27,7 +45,7 @@ substr()	It is used to fetch the part of the given string on the basis of the sp
 
 substring()	It is used to fetch the part of the given string on the basis of the specified index.
 
-slice()	It is used to fetch the part of the given string. It allows us to assign positive as well negative index.
+slice()	It is used to fetch the part of the given string. It allows us to assign positive as well negative index. => string.slice(start,end)  
 
 toLowerCase()	It converts the given string into lowercase letter.
 
