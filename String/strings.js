@@ -64,3 +64,62 @@ console.log(Character_name.concat(real_name))
 
 console.log(real_name.slice(1,7))
 
+let student = "Shivam-Sharma";
+// console.log(student.slice(0,7))
+const stsl = student.slice(0,6);
+// console.log(stsl)
+
+const  player = "Jona than & Scout";
+console.log(player.split(' '));
+console.log(player.split('')); 
+    // Output:
+            //  [
+            //     'J', 'o', 'n', 'a', ' ',
+            //     't', 'h', 'a', 'n', ' ',
+            //     '&', ' ', 'S', 'c', 'o',
+            //     'u', 't'
+            //   ]
+
+
+// const adddash = player.trimStart()
+const adddash = player.replace('Scout',"Motal")
+console.log(adddash)
+
+
+// Trim use ; 
+
+const game = "  BG M I ";
+console.log(game.trim()); // Trim remove white spce form both side.
+
+// Match.
+console.log(game.match('G'))
+
+const CricatPlayer  = "Virat-kohali";
+
+// const CheckPlayer = CricatPlayer.forEach((pl)=>console.log(pl)) // this will not work.
+for (let i = 0; i < CricatPlayer.length; i++) {
+    const element = CricatPlayer[i];
+    console.log(element)
+    
+}
+
+// const CheckPlayer = CricatPlayer.indexOf(4)
+// const CheckPlayer = CricatPlayer.matchAll('a')
+// const CheckPlayer = CricatPlayer.search('a')
+const CheckPlayer = CricatPlayer.concat
+console.log(CheckPlayer)
+
+
+const MyfavSubject = 'Math';
+const UserName = 'Manish';
+
+const User = UserName.concat(" ",MyfavSubject);
+console.log(User);
+
+console.log(`${UserName} favourite Subeject is ${MyfavSubject}`);
+
+
+//------------------------------------------------------------------
+console.log(`--------------------------------------`);
+console.log(`String basic's completed.`);
+console.log(`--------------------------------------`);
