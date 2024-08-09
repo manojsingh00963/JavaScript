@@ -1,3 +1,8 @@
+(function() {
+    let code = 'Hello, World!';
+    console.log(code);
+})();
+
 (function (name){
     this.name;
     console.log("His name is : ",name);
@@ -29,3 +34,11 @@ console.log(search3);//to see both side has been changed.
     return console.log(result);
 
 })(2,3);
+
+
+
+(async()=>{
+    const mydata = await fetch('https://api.github.com/users/manojsingh00963');
+    const getdata = await mydata.text();
+    console.log(getdata)
+})();
