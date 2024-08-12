@@ -26,7 +26,7 @@ console.log(shivam.name + " is " + shivam.age, shivam.address);
 console.log(shivam.rohan())
 
 //------------------------------------------------------------------------//
-//--------------------Define object in-side class.------------------------//
+//--------------------Define object in-side of the class.------------------------//
 //------------------------------------------------------------------------//
 
 class User{
