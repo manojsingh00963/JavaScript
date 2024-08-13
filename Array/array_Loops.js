@@ -1,5 +1,15 @@
 // ===============Loop in Array==============
 
+const array = ['Python','JavaScript','C','C++','Java','HTML','CSS'];
+console.log(array)
+
+array.forEach((value,Index,array)=>{
+    console.log(Index,value,array)//
+})
+
+//==========================================================//
+
+
 let CPU_parts = ['ALU','CU','IP','Resister','Micro-Processor'];
 
 for (let i = 0; i < CPU_parts.length; i++) {
@@ -73,3 +83,10 @@ for (const key in games2) {
     }
 }
 
+
+let rohan = ['r','o','h','a','n']
+
+rohan.forEach((Index,e)=>{
+    // console.log(e);
+    console.log(e,Index)
+});
