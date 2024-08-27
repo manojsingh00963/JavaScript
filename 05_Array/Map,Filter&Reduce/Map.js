@@ -22,18 +22,44 @@ const age = [12, 23, 4, 5, 6, 3, 34,].map(function (ag) {
 // console.log(age)
 
 
+const number = [1,2,3,4,5]
+
+const multiply = number.map((num)=> num * 2);
+
+// console.log(multiply)
 
 
 
+const jsonArray = [{key:1,value:10},
+                    {key:2,value:20},
+                    {key:3,value:30}]
 
 
+const data = jsonArray.map(({key,value})=>({[key]:value}))
+
+// console.log(data)
+// console.log(jsonArray)
 
 
+// parse in to number . 
+
+const arry = ["1","2","3"].map((str)=>parseInt(str,10))
+
+// console.log(arry)
 
 
+// map real world project example
 
 
+const products = [
+    {name:"sports car"},
+    {name:"laptop"},
+    {name:"phone"}
+]
 
+const getProduct = products.map((products)=>({...products,price:100}));
+
+console.log(getProduct);
 
 
 // ---------- This is roughly practice, It is wrong! code.

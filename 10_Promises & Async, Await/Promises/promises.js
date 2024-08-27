@@ -97,8 +97,8 @@ promiseFour2
   .catch((error) => {
     console.log(error);
     // }).finally(()=>console.log("The promise is either resolved or rejected."))
-  });
-// .finally(()=>console.log(`" The promise is either resolves or rejectes. "`));
+  })
+.finally(()=>console.log(`" The promise is either resolves or rejectes. "`));
 
 // It not Necessary to always use .then and .catch , can use instead of both async & await.
 
